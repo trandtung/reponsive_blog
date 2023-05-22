@@ -1,0 +1,7 @@
+.footer p,h1,h2,h3{
+    color:var(--color-fff);
+}
+
+.footer{
+    background-color: #3E3E3E;
+}
