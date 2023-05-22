@@ -1,0 +1,52 @@
+:root {
+  --color-fff: #fff;
+  --main-color: #f1692f;
+}
+html {
+  font-size: 100%;
+  background-color: #fff;
+}
+ul,
+li {
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+* {
+  box-sizing: border-box;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+.new-color {
+  color: var(--main-color);
+}
+.w-100 {
+    width: 100% !important;
+}
+.opacity-100{
+    opacity: 1;
+}
+a {
+  color: #f75454;
+  text-decoration: none;
+  background-color: transparent;
+}
+.mb-10, .my-10 {
+    margin-bottom: 4.5rem!important;
+}
+
+.mt-6, .my-6 {
+    margin-top: 2.5rem!important;
+}
+.aria-current{
+    cursor: pointer;
+}

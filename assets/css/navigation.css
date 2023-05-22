@@ -1,0 +1,37 @@
+.logo {
+  border-right: 1px solid #ffffff4d;
+}
+
+.topnav {
+  width: 1920px;
+  height: 93px;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.topnav-left {
+  display: flex;
+  align-items: center;
+}
+.topnav-left span {
+  color: var(--color-fff);
+}
+.topnav-right {
+  min-width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-magnifying-glass {
+  color: #bdbdbd;
+  z-index: 1;
+  right: 15px;
+}
+
+.bottom-img {
+  max-width: 100%;
+  height: auto;
+}

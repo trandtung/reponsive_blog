@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>tdtung</title>
+    <link rel="stylesheet" href="../assets/css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../assets/css/globalCss.css" />
+    <link rel="stylesheet" href="../assets/css/navigation.css" />
+    <link rel="stylesheet" href="../assets/css/newsBlogs.css" />
+    <!-- <link rel="stylesheet" href="../assets/css/grid.css" />
+    <link rel="stylesheet" href="../assets/css/reponsive-header.css" />
+    <link rel="stylesheet" href="../assets/css/products.css" />
+    <link rel="stylesheet" href="../assets/css/adblock.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/social.css" /> -->
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="nav">
+        <div class="topnav">
+          <!-- Left side -->
+          <div class="topnav-left">
+            <div class="logo">
+              <a href="/">
+                <img
+                  id="img-logo"
+                  loading="lazy"
+                  width="120"
+                  height="auto"
+                  src="
+                  ../assets/image/Logo_nav.png"
+                  alt=""
+              /></a>
+            </div>
+
+            <!-- Desktop -->
+            <div class="dropdown nav-desktop ps-3 d-none d-lg-block">
+              <span
+                class="topnav__dropdown text-uppercase font-weight-bold"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Khóa học <i class="fas fa-caret-down"></i>
+              </span>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="nav-row">
+                  <div class="nav-col">
+                    <a class="dropdown-item" href="/course-market/">
+                      <strong>Phân tích dữ liệu</strong>
+                    </a>
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-python-foundation-in-data-analytics/"
+                      >Python Foundation in Data Analytics</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-sql-for-newbies-data-analysis-for-beginners/"
+                      >SQL for Newbies: Data Analysis for Beginners</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-database-and-sql-for-data-science/"
+                      >Database and SQL for Data Science</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-analyzing-and-visualizing-data-on-power-bi/"
+                      >Analyzing and Visualizing Data on Power BI</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-applying-power-bi-in-business-intelligence/"
+                      >Applying Power BI In Business Intelligence</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-vba-basic-to-advanced/"
+                      >VBA Basic To Advanced</a
+                    >
+                  </div>
+
+                  <div class="nav-col">
+                    <a class="dropdown-item" href="/course-market/">
+                      <strong>Khoa học dữ liệu</strong>
+                    </a>
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-python-for-machine-learning-deep-learning/"
+                      >Python for Machine Learning &amp; Deep Learning</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-career-coaching/"
+                      >Career Coaching</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-data-science-track/"
+                      >Data Science Track</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-combo-python-level-1-level-2/"
+                      >Combo Python Level 1 &amp; Level 2</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-math-statistics-for-data-science/"
+                      >Math &amp; Statistics for Data Science</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-deep-learning-application-in-the-real-world/"
+                      >Deep Learning Application in the Real World</a
+                    >
+                  </div>
+                </div>
+                <div class="nav-row">
+                  <div class="nav-col">
+                    <a class="dropdown-item" href="/course-market/">
+                      <strong>Kĩ sư dữ liệu</strong>
+                    </a>
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-combo-data-engineering-foundations-specialization/"
+                      >Combo Data Engineering Foundations Specialization</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-big-data-with-hadoop-and-spark/"
+                      >Big Data with Hadoop and Spark</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-advanced-data-lakes-and-data-warehouses/"
+                      >Advanced Data Lakes and Data Warehouses</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-aws-data-engineer-for-beginners/"
+                      >AWS Data Engineer for Beginners</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-advanced-aws-cloud-data-engineer/"
+                      >Advanced AWS Cloud Data Engineer</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-combo-data-engineering-professional/"
+                      >Combo Data Engineering Professional</a
+                    >
+
+                    <a class="dropdown-item" href="/course-market/"
+                      ><b>Xem tất cả</b>
+                    </a>
+                  </div>
+
+                  <div class="nav-col">
+                    <a class="dropdown-item" href="/course-market/">
+                      <strong>Lập trình ứng dụng</strong>
+                    </a>
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-python-backend-foundation/"
+                      >Python Backend Foundation</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-python-backend-development/"
+                      >Python Backend Development</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-database-management-in-mysql/"
+                      >Database Management in MySQL</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-it-business-analyst-for-beginners/"
+                      >IT Business Analyst for Beginners</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-it-business-analyst-fast-track/"
+                      >IT Business Analyst Fast Track</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      href="/course-detail/khoa-hoc-advanced-it-business-analyst/"
+                      >Advanced IT Business Analyst</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- top right -->
+          <div class="topnav-right">
+            <div class="topsearch-wrap mr-lg-3" style="position: relative">
+              <i
+                class="fa-2x fa-solid fa-magnifying-glass d-none d-lg-block"
+              ></i>
+              <i
+                data-bs-toggle="modal"
+                data-bs-target="#searchModal"
+                class="fa-2x fa-solid fa-magnifying-glass d-block d-lg-none"
+              ></i>
+              <form
+                style="display: none"
+                class="topnav__form"
+                method="GET"
+                action="/search-infor"
+              >
+                <div class="input-group">
+                  <input
+                    autocomplete="off"
+                    name="key"
+                    id="text_search"
+                    value=""
+                    type="text"
+                    class="topnav__search"
+                    placeholder="Tìm kiếm Blog, Sách, Khóa học, ..."
+                  />
+                </div>
+              </form>
+
+              <div
+                class="modal fade"
+                id="searchModal"
+                tabindex="-1"
+                role="dialog"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-fullscreen h-auto m-0"
+                  role="document"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header" style="color: var(--main-color)">
+                      <h2 class="modal-title">Tìm kiếm</h2>
+                      <button
+                        type="button"
+                        class="close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form
+                        class="topnav__form"
+                        method="GET"
+                        action="/search-infor"
+                      >
+                        <div class="input-group">
+                          <input
+                            autocomplete="off"
+                            name="key"
+                            value=""
+                            type="text"
+                            class="topnav__search"
+                            placeholder="Tìm kiếm Blog, Sách, Khóa học, ..."
+                          />
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <button
+                style="width: 120px; background-color: white"
+                class="btn btn-primary"
+              >
+                <a
+                  style="color: var(--main-color)"
+                  data-bs-toggle="modal"
+                  data-bs-target="#LoginRegisterModal"
+                  >Đăng nhập</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-nav">
+          <img
+            class="bottom-img"
+            src="../assets/image/banner_header.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- News blogs -->
+      <div class="container mt-6 mb-10">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-5 col-lg-5 mt-5 mt-md-0" id="event-section">
+            <div class="d-inline-block">
+              <h3 class="fw-bolder new-color">Sự kiện của MCI</h3>
+              <hr
+                class="w-100 new-color opacity-100"
+                style="border-top: 3px solid"
+              />
+            </div>
+
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-center my-3 mb-md-5">
+                    <a>
+                      <img
+                        class="event__image"
+                        src="../assets/image/img01.png"
+                      />
+                    </a>
+                  </div>
+
+                  <div class="row justify-content-center my-3 mb-md-5">
+                    <a>
+                      <img
+                        class="event__image"
+                        src="../assets/image/img01.png"
+                      />
+                    </a>
+                  </div>
+
+                  <div class="row justify-content-center my-3 mb-md-5">
+                    <a>
+                      <img
+                        class="event__image"
+                        src="../assets/image/img01.png"
+                      />
+                    </a>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <!-- Carousel indicators -->
+                    <div class="carousel-indicator">
+                      <div class="aria-current">
+                        <i class="fa-solid fa-angle-left"></i>
+                      </div>
+                      <div
+                        class="d-flex w-75 justify-content-around align-items-center"
+                      >
+                        <li class="rounded-circle"></li>
+                        <li class="rounded-circle active-dot"></li>
+                        <li class="rounded-circle"></li>
+                        <li class="rounded-circle"></li>
+                        <li class="rounded-circle"></li>
+                      </div>
+
+                      <div class="ml-4 aria-current">
+                        <i class="fa-solid fa-angle-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-7 col-lg-7" id="blog-section">
+            <div class="d-inline-block">
+              <h3 class="fw-bolder new-color">Bài viết mới nhất</h3>
+              <hr
+                class="w-100 new-color opacity-100"
+                style="border-top: 3px solid"
+              />
+            </div>
+
+            <form
+              class="row my-md-3 justify-content-center px-4"
+              method="GET"
+              action="/blog/#blog-section"
+            >
+              <div>
+                <div class="input-group d-flex align-items-center rounded-10">
+                  <input
+                    style="font-family: 'Font Awesome 5 Pro', 'Montserrat'"
+                    type="text"
+                    class="form-control post__search"
+                    placeholder="&#xF002;   Tìm kiếm bài viết ..."
+                    name="title-filter"
+                  />
+                </div>
+              </div>
+
+              <div class="row justify-content-center text-center">
+                <div
+                  class="col-6 col-md-3 col-lg-3 border-right border-1 border-secondary my-2 my-lg-3 category-item"
+                >
+                  <span class="new-color fw-bolder">
+                    <a
+                      href="/blog/?category-filter=NS#blog-section"
+                      class="new-color"
+                      >Tin tức</a
+                    >
+                  </span>
+                </div>
+
+                <div
+                  class="col-6 col-md-3 col-lg-3 border-right border-1 border-secondary my-2 my-lg-3 category-item"
+                >
+                  <span class="new-color fw-bolder">
+                    <a
+                      href="/blog/?category-filter=SE#blog-section"
+                      class="new-color"
+                      >Chia sẻ kinh nghiệm</a
+                    >
+                  </span>
+                </div>
+
+                <div
+                  class="col-6 col-md-3 col-lg-3 border-right border-1 border-secondary my-2 my-lg-3 category-item"
+                >
+                  <span class="new-color fw-bolder">
+                    <a
+                      href="/blog/?category-filter=SK#blog-section"
+                      class="new-color"
+                      >Kiến thức chuyên môn</a
+                    >
+                  </span>
+                </div>
+
+                <div
+                  class="col-6 col-md-3 col-lg-3 border-right border-1 border-secondary my-2 my-lg-3 category-item"
+                >
+                  <span class="new-color fw-bolder">
+                    <a
+                      href="/blog/?category-filter=KN#blog-section"
+                      class="new-color"
+                      >Kinh nghiệm thực chiến</a
+                    >
+                  </span>
+                </div>
+
+                <div
+                  class="col-6 col-md-3 col-lg-3 border-right border-1 border-secondary my-2 my-lg-3 category-item"
+                >
+                  <span class="new-color fw-bolder">
+                    <a
+                      href="/blog/?category-filter=MC#blog-section"
+                      class="new-color"
+                      >MCI Careers</a
+                    >
+                  </span>
+                </div>
+
+                <div
+                  class="col-6 col-md-3 col-lg-3 border-right border-1 border-secondary my-2 my-lg-3 category-item"
+                >
+                  <span class="new-color fw-bolder">
+                    <a
+                      href="/blog/?category-filter=TK#blog-section"
+                      class="new-color"
+                      >Thời khóa biểu</a
+                    >
+                  </span>
+                </div>
+              </div>
+            </form>
+
+            <div class="row justify-content-between my-3">
+              <div class="col-12 col-md-5 col-lg-5 mb-3 mb-md-auto">
+                <a
+                  href="/blog-detail/hoi-va-ap-ve-nghe-data-analytics-da-danh-cho-sinh-vien-moi-ra-truong-0DWV18/"
+                  target="_blank"
+                >
+                  <img
+                  src=https://cdn.mcivietnam.com/nhanvien/media/Blog/anh-chup-man-hinh-2023-05-16-luc-173539pnglgu2s4.png
+                  class="img-fluid post__image rounded">
+                </a>
+              </div>
+
+              <div class="col-12 col-md-7 col-lg-7 pl-1">
+                <a
+                  href="/blog-detail/hoi-va-ap-ve-nghe-data-analytics-da-danh-cho-sinh-vien-moi-ra-truong-0DWV18/"
+                  target="_blank"
+                >
+                  <h5 class="new-color fw-bold">
+                    HỎI VÀ ĐÁP VỀ NGHỀ DATA ANALYTICS (DA) DÀNH CHO SINH VIÊN
+                    MỚI RA TRƯỜNG
+                  </h5>
+                </a>
+                <p class="text-justify mb-3 mb-lg-0 post__content">
+                  Vị Trí Data Analytics (DA) là gì? Cần những kỹ năng nào để trở
+                  thành một chuyên viên phân tích dữ liệu giỏi?
+                </p>
+                <a
+                  href="/blog-detail/hoi-va-ap-ve-nghe-data-analytics-da-danh-cho-sinh-vien-moi-ra-truong-0DWV18/"
+                  target="_blank"
+                  class="new-color font-italic fw-bolder float-end mb-3 mb-lg-3"
+                >
+                  Xem thêm
+                </a>
+              </div>
+            </div>
+
+            <div class="row justify-content-between my-3">
+              <div class="col-12 col-md-5 col-lg-5 mb-3 mb-md-auto">
+                <a
+                  href="/blog-detail/chia-se-kinh-nghiem-ung-tuyen-vi-tri-data-analyst-tu-con-so-0-WQ2WEQ/"
+                  target="_blank"
+                >
+                  <img
+                  src=https://cdn.mcivietnam.com/nhanvien/media/Blog/anh-chup-man-hinh-2023-05-16-luc-172532pngk1as60.png
+                  class="img-fluid post__image rounded">
+                </a>
+              </div>
+
+              <div class="col-12 col-md-7 col-lg-7 pl-1">
+                <a
+                  href="/blog-detail/chia-se-kinh-nghiem-ung-tuyen-vi-tri-data-analyst-tu-con-so-0-WQ2WEQ/"
+                  target="_blank"
+                >
+                  <h5 class="new-color fw-bold">
+                    CHIA SẺ KINH NGHIỆM ỨNG TUYỂN VỊ TRÍ DATA ANALYST TỪ CON SỐ
+                    0
+                  </h5>
+                </a>
+                <p class="text-justify mb-3 mb-lg-0 post__content">
+                  Mình là du học sinh Nhật, chuyên ngành kinh tế quốc tế. Do
+                  dịch Covid nên mình phải về Việt Nam sớm sau 3 năm rưỡi học
+                  tập tại Nhật và bắt đầu con đường lập nghiệp
+                </p>
+                <a
+                  href="/blog-detail/chia-se-kinh-nghiem-ung-tuyen-vi-tri-data-analyst-tu-con-so-0-WQ2WEQ/"
+                  target="_blank"
+                  class="new-color font-italic fw-bolder float-end mb-3 mb-lg-3"
+                >
+                  Xem thêm
+                </a>
+              </div>
+            </div>
+
+            <div class="row justify-content-between my-3">
+              <div class="col-12 col-md-5 col-lg-5 mb-3 mb-md-auto">
+                <a
+                  href="/blog-detail/nganh-data-analytics-va-nhung-co-hoi-phat-trien-nghe-nghiep-trong-tuong-lai-ZOOSVN/"
+                  target="_blank"
+                >
+                  <img
+                  src=https://cdn.mcivietnam.com/nhanvien/media/Blog/anh-chup-man-hinh-2023-05-16-luc-170503pngdjm9jo.png
+                  class="img-fluid post__image rounded">
+                </a>
+              </div>
+
+              <div class="col-12 col-md-7 col-lg-7 pl-1">
+                <a
+                  href="/blog-detail/nganh-data-analytics-va-nhung-co-hoi-phat-trien-nghe-nghiep-trong-tuong-lai-ZOOSVN/"
+                  target="_blank"
+                >
+                  <h5 class="new-color fw-bold">
+                    Ngành Data Analytics và những cơ hội phát triển nghề nghiệp
+                    trong tương lai
+                  </h5>
+                </a>
+                <p class="text-justify mb-3 mb-lg-0 post__content">
+                  Data Analytics đang là xu hướng nghề nghiệp mới được nhiều bạn
+                  trẻ lựa chọn theo đuổi trong thời đại chuyển đổi số ngày nay.
+                  Tuy nhiên, để tránh tình trạng chạy theo xu hướng mà không có
+                  những định hướng rõ ràng về ngành, chúng tôi sẽ chia sẻ với
+                  bạn những thông tin cũng như tiềm năng phát triển của ngành
+                  trong bài viết này.
+                </p>
+                <a
+                  href="/blog-detail/nganh-data-analytics-va-nhung-co-hoi-phat-trien-nghe-nghiep-trong-tuong-lai-ZOOSVN/"
+                  target="_blank"
+                  class="new-color font-italic fw-bolder float-end mb-3 mb-lg-3"
+                >
+                  Xem thêm
+                </a>
+              </div>
+            </div>
+
+            <div class="row justify-content-between my-3">
+              <div class="col-12 col-md-5 col-lg-5 mb-3 mb-md-auto">
+                <a
+                  href="/blog-detail/lo-trinh-05-buoc-tro-thanh-data-analyst-chuyen-nghiep-UXV1MG/"
+                  target="_blank"
+                >
+                  <img
+                  src=https://cdn.mcivietnam.com/nhanvien/media/Blog/srbxocq0upkxo9gsbahqxik4sbizddqvx5i2fmawjpege91d6g.jpeg
+                  class="img-fluid post__image rounded">
+                </a>
+              </div>
+
+              <div class="col-12 col-md-7 col-lg-7 pl-1">
+                <a
+                  href="/blog-detail/lo-trinh-05-buoc-tro-thanh-data-analyst-chuyen-nghiep-UXV1MG/"
+                  target="_blank"
+                >
+                  <h5 class="new-color fw-bold">
+                    LỘ TRÌNH 05 BƯỚC TRỞ THÀNH DATA ANALYST CHUYÊN NGHIỆP
+                  </h5>
+                </a>
+                <p class="text-justify mb-3 mb-lg-0 post__content">
+                  Data Analyst ngày càng trở thành vị trí mơ ước và mục tiêu của
+                  nhiều ứng viên. Điều này không có gì ngạc nhiên vì lượng dữ
+                  liệu khổng lồ mà tất cả mọi người tạo ra trong thế giới hiện
+                  đại.
+                </p>
+                <a
+                  href="/blog-detail/lo-trinh-05-buoc-tro-thanh-data-analyst-chuyen-nghiep-UXV1MG/"
+                  target="_blank"
+                  class="new-color font-italic fw-bolder float-end mb-3 mb-lg-3"
+                >
+                  Xem thêm
+                </a>
+              </div>
+            </div>
+
+            <div class="row justify-content-between my-3">
+              <div class="col-12 col-md-5 col-lg-5 mb-3 mb-md-auto">
+                <a
+                  href="/blog-detail/kham-pha-05-du-an-phan-tich-du-lieu-thu-vi-cho-nguoi-moi-bat-au-GG7DB7/"
+                  target="_blank"
+                >
+                  <img
+                  src=https://cdn.mcivietnam.com/nhanvien/media/Blog/big-datapnguswnk8.png
+                  class="img-fluid post__image rounded">
+                </a>
+              </div>
+
+              <div class="col-12 col-md-7 col-lg-7 pl-1">
+                <a
+                  href="/blog-detail/kham-pha-05-du-an-phan-tich-du-lieu-thu-vi-cho-nguoi-moi-bat-au-GG7DB7/"
+                  target="_blank"
+                >
+                  <h5 class="new-color fw-bold">
+                    KHÁM PHÁ 05 DỰ ÁN PHÂN TÍCH DỮ LIỆU THÚ VỊ CHO NGƯỜI MỚI BẮT
+                    ĐẦU
+                  </h5>
+                </a>
+                <p class="text-justify mb-3 mb-lg-0 post__content">
+                  Đối với newbie thì bạn phải lựa chọn thật kỹ những projects
+                  giúp CV của bạn nổi bật và cạnh tranh với các ứng viên khác.
+                  Cùng MCI khám phá 05 dự án dưới đây sẽ giúp bạn nâng cao kỹ
+                  năng và ghi điểm trong mắt nhà tuyển dụng.
+                </p>
+                <a
+                  href="/blog-detail/kham-pha-05-du-an-phan-tich-du-lieu-thu-vi-cho-nguoi-moi-bat-au-GG7DB7/"
+                  target="_blank"
+                  class="new-color font-italic fw-bolder float-end mb-3 mb-lg-3"
+                >
+                  Xem thêm
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- library images -->
+        <div class="container mt-6">
+          <div class="justify-content-center">
+            <div class="d-inline-block">
+              <h3 class="fw-bolder new-color">Thư viện ảnh</h3>
+              <hr
+                class="w-100 new-color opacity-100"
+                style="border-top: 3px solid"
+              />
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-12 col-lg-8 mb-3 mb-lg-auto">
+              <div>
+                <img
+                  src="../assets/image/banner_header.png"
+                  class="d-block w-100 rounded"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+              <div>
+                <img
+                  src="../assets/image/banner_header.png"
+                  class="d-block w-100 rounded"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center my-3">
+            <div class="col-12 col-md-12 col-lg-4 mb-3 mb-lg-auto">
+              <div>
+                <img
+                  src="../assets/image/banner_header.png"
+                  class="d-block w-100 rounded"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-8">
+              <div>
+                <img
+                  src="../assets/image/banner_header.png"
+                  class="d-block w-100 rounded"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="container mt-6 mb-6">
+          <div class="justify-content-center mb-3 mb-lg-5">
+            <div class="d-inline-block">
+              <h3 class="fw-bolder new-color">Chương trình đào tạo của MCI</h3>
+              <hr
+                class="w-100 new-color opacity-100"
+                style="border-top: 3px solid"
+              />
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-6 col-md-6 col-lg-3 mb-3 mb-lg-auto">
+              <div>
+                <img
+                  src="../assets/image/data_analytics.png"
+                  class="d-block w-100 h-100 rounded-circle"
+                  alt="..."
+                />
+              </div>
+              <div class="justify-content-center text-center mt-3">
+                <h3 class="new-color fw-bolder">Phân tích dữ liệu</h3>
+                <p class="text-justify mb-0">
+                  Phân tích dữ liệu (Data Analytics), là sự lựa chọn cho những
+                  ai đam mê thu thập, khai thác và xử lý các bộ dữ liệu để đưa
+                  ra quan sát. Phân tích dữ liệu giúp tìm ra các xu hướng và số
+                  liệu trong các khối thông tin mà có thể bị bỏ sót nếu không sử
+                  dụng kĩ thuật hay công cụ phân tích. Giúp tối ưu hóa các quy
+                  trình làm tăng hiệu quả tổng thể của một doanh nghiệp, hệ
+                  thống.
+                </p>
+                <a
+                  src="../assets/image/data_analytics.png"
+                  target="_blank"
+                  class="new-color font-italic float-end fw-bolder"
+                >
+                  Xem thêm
+                </a>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-3 mb-3 mb-lg-auto">
+              <div>
+                <img
+                  src="../assets/image/data_analytics.png"
+                  class="d-block w-100 h-100 rounded-circle"
+                  alt="..."
+                />
+              </div>
+              <div class="justify-content-center text-center mt-3">
+                <h3 class="new-color fw-bolder">Khoa học dữ liệu</h3>
+                <p class="text-justify mb-0">
+                  Khoa học dữ liệu (Data Science) là lĩnh vực nghiên cứu kết hợp
+                  chuyên môn lập trình và kiến thức toán học, thống kê để xử lý
+                  khối lượng dữ liệu. Áp dụng các thuật toán học máy cho các con
+                  số, văn bản, hình ảnh, video, âm thanh, sau đó xây dựng các hệ
+                  thống trí tuệ nhân tạo (AI) để phân tích dữ liệu từ nhiều
+                  nguồn khác nhau để đưa quyết định, lập kế hoạch chiến lược cho
+                  doanh nghiệp.
+                </p>
+                <a
+                  href="/course-market/"
+                  target="_blank"
+                  class="new-color font-italic float-end fw-bolder"
+                >
+                  Xem thêm
+                </a>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-3 mb-3 mb-lg-auto">
+              <div>
+                <img
+                  src="../assets/image/data_analytics.png"
+                  class="d-block w-100 h-100 rounded-circle"
+                  alt="..."
+                />
+              </div>
+              <div class="justify-content-center text-center mt-3">
+                <h3 class="new-color fw-bolder">Kỹ sư dữ liệu</h3>
+                <p class="text-justify mb-0">
+                  Kỹ sư dữ liệu (Data Engineer), là một trong những vị trí quan
+                  trọng trong lĩnh vực khoa học dữ liệu, người nắm vị trí then
+                  chốt xây dựng, kiểm tra, duy trì các cấu trúc Data tổng hợp.
+                  Tất cả các số liệu sẽ được số hóa, giúp tiết kiệm thời gian và
+                  giảm thiểu chi phí cho doanh nghiệp. Họ là những người thiết
+                  kế và tối ưu các hệ thống dữ liệu lớn để mang lại những lợi
+                  thế cạnh trạnh vượt trội.
+                </p>
+                <a
+                  href="/course-market/"
+                  target="_blank"
+                  class="new-color font-italic float-end fw-bolder"
+                >
+                  Xem thêm
+                </a>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-3 mb-3 mb-lg-auto">
+              <div>
+                <img
+                  src="../assets/image/data_analytics.png"
+                  class="d-block w-100 h-100 rounded-circle"
+                  alt="..."
+                />
+              </div>
+              <div class="justify-content-center text-center mt-3">
+                <h3 class="new-color fw-bolder">Lập trình ứng dụng</h3>
+                <p class="text-justify mb-0">
+                  Lập trình ứng dụng, top ngành được săn đón nhất hiện nay. Sử
+                  dụng các ngôn ngữ lập trình để tạo ra các ứng dụng có thể hoạt
+                  động được trên nền tảng, hoặc thiết bị như: ứng dụng web, ứng
+                  dụng di động,..Thế giới sẽ thiếu đi sự tương tác và dễ dàng
+                  nếu thiếu đi những kỹ sư phần mềm làm việc không biết mệt mỏi.
+                  Đây là ngành nghề trong mọi ngành nghề của thế kỉ 21 và hơn
+                  thế nữa.
+                </p>
+                <a
+                  href="/course-market/"
+                  target="_blank"
+                  class="new-color font-italic float-end fw-bolder"
+                >
+                  Xem thêm
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="../js/scroll.js"></script> -->
+  </body>
+</html>
